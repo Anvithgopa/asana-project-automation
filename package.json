@@ -1,0 +1,26 @@
+{
+  "name": "asana-project-automation",
+  "version": "1.0.0",
+  "description": "Enterprise Asana task dependency cascade engine and workspace migration toolkit",
+  "main": "scheduler/dependency_scheduler.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node scheduler/dependency_scheduler.js",
+    "test": "node scheduler/test_scheduler.js"
+  },
+  "keywords": [
+    "asana",
+    "automation",
+    "project-management",
+    "dag",
+    "task-scheduler",
+    "dependencies",
+    "critical-path"
+  ],
+  "author": "Anvith Gopa",
+  "license": "MIT",
+  "dependencies": {
+    "asana": "^1.0.2",
+    "dotenv": "^16.4.5"
+  }
+}

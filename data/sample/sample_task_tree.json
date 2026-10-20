@@ -1,0 +1,47 @@
+{
+  "gid": "1200000000000001",
+  "name": "Sprint Milestone: Backend Architecture",
+  "resource_type": "task",
+  "start_on": "2026-11-01",
+  "due_on": "2026-11-05",
+  "completed": false,
+  "custom_fields": [
+    {
+      "gid": "1200000000000010",
+      "name": "Block",
+      "display_value": "FS",
+      "enum_value": {
+        "gid": "1200000000000011",
+        "name": "FS"
+      }
+    },
+    {
+      "gid": "1200000000000020",
+      "name": "Duration",
+      "display_value": "5",
+      "number_value": 5
+    },
+    {
+      "gid": "1200000000000030",
+      "name": "Lag Time",
+      "display_value": "1",
+      "number_value": 1
+    },
+    {
+      "gid": "1200000000000040",
+      "name": "Constraint",
+      "display_value": "None",
+      "enum_value": {
+        "gid": "1200000000000041",
+        "name": "None"
+      }
+    }
+  ],
+  "dependencies": [],
+  "dependents": [
+    {
+      "gid": "1200000000000002",
+      "name": "Frontend API Integration"
+    }
+  ]
+}
